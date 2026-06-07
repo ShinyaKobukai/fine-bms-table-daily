@@ -1,0 +1,38 @@
+{
+  "name": "Fine Bot BMS Table - 日課",
+  "symbol": "★",
+  "dataUrl": "https://script.google.com/macros/s/AKfycbxTZNe1TtT_z57COq5vZVe2dId_o5HGr7WhTuJHlney4G93bT9diVSNH0mWAzZfo39a/exec?sheet=日課",
+  "siteDescription": "Fine Botで管理しているBMS難易度表",
+  "lightTheme": "light",
+  "darkTheme": "dark",
+  "darkMode": "system",
+  "columns": [
+    {
+      "header": "Lv",
+      "type": "level"
+    },
+    {
+      "header": "Title",
+      "type": "link",
+      "property": "title",
+      "url": "{{url}}"
+    },
+    {
+      "header": "Artist",
+      "type": "text",
+      "property": "artist"
+    },
+    {
+      "header": "Tag",
+      "type": "text",
+      "property": "tag"
+    },
+    {
+      "header": "Chart",
+      "type": "badge",
+      "label": "DL",
+      "url": "{{url_diff}}",
+      "align": "center"
+    }
+  ]
+}
